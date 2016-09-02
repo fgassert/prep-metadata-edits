@@ -1,0 +1,20 @@
+{
+  "loggedUser": {
+    "iat": 1470157273,
+    "createdAt": "2016-08-02T14:11:28.305Z",
+    "role": "USER",
+    "email": "alicia.arenzana@vizzuality.com",
+    "providerId": null,
+    "provider": "local"
+  },
+  "attributes": {
+    "organization": "USGS",
+    "license": "U.S. Government Works",
+    "source": "",
+    "citation": "",
+    "description": "",
+    "short-description": "",
+    "subtitle": "USGS National Land Cover Database (2001)",
+    "title": "USGS Land Cover (Canopy) -- Hawaii"
+  }
+}

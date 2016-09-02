@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "organization": "Joe Casola, University of Washington",
+    "license": "Public domain",
+    "source": "http://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-divisions.php",
+    "citation": "Vose, R. S. et al., 2014. Improved historical temperature and precipitation time series for US climate divisions. Journal Of Applied Meteorology and Climatology, 53(5), 1232-1251.",
+    "description": "These trends were determined using data from the U.S. Climate Divisional Dataset, developed by the National Centers for Environmental Information (NCEI). NCEI provides long-term climate summaries for each of the country’s 344 climate divisions. Results for the “Puget Sound Lowlands (45-03)” climate division were used in the present analysis, which includes all of the low-lying land areas surrounding Puget Sound, where most of the historical weather observations are concentrated. For more information about this analysis please see http://cses.washington.edu/picea/mauger/ps-sok/ps-sok_sec12_builtenvironment_2015.pdf. For more information about the US Climate Divisional Dataset, see: http://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-divisions.php",
+    "short-description": "There is no long term trend in precipitation over the past six decades in the Puget Sound region.",
+    "subtitle": "Annual average precipitation in Puget Sound lowlands 1950-2014",
+    "title": "Precipitation change"
+  }
+}

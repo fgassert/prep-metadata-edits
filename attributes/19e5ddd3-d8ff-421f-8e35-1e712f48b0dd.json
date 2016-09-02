@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "dataDownload": "http://edg.epa.gov/data/Restricted/OEI/OIAA/Tribes/EPAtribes.zip",
+    "organization": "EPA",
+    "license": "U.S. Government Works",
+    "organization-long": "U.S. Environmental Protection Agency",
+    "source": "",
+    "citation": "",
+    "description": "This layer represents center points of Alaska Native Villages. The Alaska Native Villages are associated with Federally recognized tribal entities.",
+    "short-description": "This layer represents center points of Alaska Native Villages. The Alaska Native Villages are associated with Federally recognized tribal entities.",
+    "service": 91,
+    "subtitle": "EPA Center Points of Alaska Native Villages",
+    "title": "Native Villages -- U.S. (Alaska)"
+  }
+}

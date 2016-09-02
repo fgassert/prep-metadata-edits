@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "dataDownload": "ftp://ftp.coast.noaa.gov/pub/MSP/CoastalTribalLands.zip",
+    "organization": "NOAA",
+    "license": "U.S. Government Works",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "source": "",
+    "citation": "",
+    "description": "This dataset depicts feature location, selected demographics, and other associated data for American Indian Reservations (AIR), Alaska Native Villages (ANV), Federally Recognized Tribal Entities (FRTE), Public Domain Allotments (PDAs), and off-reservation trust lands. This is NOT a complete collection of tribal lands, nor are the locations to be considered exact. The presence and location of the tribal lands have been derived from multiple sources. These data are intended for coastal and ocean planning. Not for navigation.",
+    "short-description": "This dataset depicts feature location, selected demographics, and other associated data for American Indian Reservations (AIR), Alaska Native Villages (ANV), Federally Recognized Tribal Entities (FRTE), Public Domain Allotments (PDAs), and off-reservation trust lands. This is NOT a complete collection of tribal lands, nor are the locations to be considered exact. The presence and location of the tribal lands have been derived from multiple sources. These data are intended for coastal and ocean planning. Not for navigation.",
+    "service": 89,
+    "subtitle": "BIA Coastal Tribal Lands",
+    "title": "Coastal Tribal Lands -- U.S. "
+  }
+}

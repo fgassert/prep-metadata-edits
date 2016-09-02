@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "dataDownload": "",
+    "organization": "EPA",
+    "license": "U.S. Government Works",
+    "organization-long": "U.S. Environmental Protection Agency",
+    "source": "https://ejscreen.epa.gov/arcgis/rest/services/ejscreen/tribal/MapServer/2",
+    "citation": "",
+    "description": "This layer represents locations of American Indian reservations in Alaska.",
+    "short-description": "This layer represents locations of American Indian reservations in Alaska.",
+    "service": 92,
+    "subtitle": "EPA  American Indian Reservations",
+    "title": "Reservations -- U.S. (Alaska)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "organization": "NOAA",
+    "license": "",
+    "source": "https://catalog.data.gov/dataset/coastal-flood-hazard-composite-layer-for-the-coastal-flood-exposure-mapper",
+    "citation": "NOAA Coastal Flood Hazard",
+    "description": "This is a map service for the Coastal Flood Hazard Composite dataset. This dataset was created by combining hazard zones from the following datasets: FEMA V zones, FEMA A zones, FEMA shaded X zones, NOAA OCM Flood Frequency zones, NOAA OCM potential sea level rise inundation of 3 ft above current Mean Higher High Water (MHHW), and SLOSH MOMs for category 3 hurricanes. This dataset was created to support the National Oceanic and Atmospheric Administration Office for Coastal Management's Coastal Flood Exposure Mapper application. The purpose of the online mapping tool is to provide coastal managers, planners, and stakeholders a preliminary look at exposures to coastal flooding hazards. The Mapper is a screening-level tool that uses nationally consistent data sets and analyses. Data and maps provided can be used at several scales to help communities initiate resilience planning efforts. Currently the extent of this dataset covers U. S. coastal areas along the Gulf of Mexico and Atlantic coasts.",
+    "short-description": "Displays location and severity of Coastal Flood Hazards",
+    "subtitle": "",
+    "title": "Coastal Flood Hazard"
+  }
+}

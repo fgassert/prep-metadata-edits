@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "organization": "DOT",
+    "license": "U.S. Government Works",
+    "source-long": "Department of Transportation",
+    "source": "",
+    "citation": "Menne, Matthew J., Imke Durre, Russell S. Vose, Byron E. Gleason, Tamara G. Houston, 2012: An Overview of the Global Historical Climatology Network-Daily Database. J. Atmos. Oceanic Technol., 29, 897–910, doi:10.1175/JTECH-D-11-00103.1.",
+    "description": "Data for all the states (except for AK,AS,GU,HI,KS,MP,MT,NY,PR,TX,VI,WI, & WY) was acquired from respective states departments or their open source websites and then geocoded and converted into a spatial database. Data for AK,AS,GU,HI,KS,MP,MT,NY,PR,TX,VI,WI,& WY was appended from HSIP version 2012 as verification and validation of data for these states was not complete at time of delivery. For the remaining states after geocoding the exact spatial location of each point was moved to rooftops wherever possible and points which have been physically verified have been labeled 'Geocode', 'Imagery', 'Imagery with other' and 'Unverified' depending on the methodology used to move the points. Attribution of some of the fields has not been completed for this interim delivery and will be completed in the next version.",
+    "short-description": "This is an INTERIM delivery of the HOSPITALS layer.This database contains locations of Hospitals for 50 states and Washington D.C. and Puerto Rico. The dataset only includes hospital facilities and does not include nursing homes.",
+    "service": 250,
+    "subtitle": "Hospitals",
+    "title": "Hospitals -- U.S. and Puerto Rico"
+  }
+}

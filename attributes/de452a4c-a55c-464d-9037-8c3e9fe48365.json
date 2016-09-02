@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "organization": "ProtectedPlanet",
+    "license": "All rights reserved",
+    "source": "https://www.protectedplanet.net.",
+    "citation": "IUCN and UNEP-WCMC (2016), The World Database on Protected Areas (WDPA) [On-line], Cambridge, UK: UNEP-WCMC.",
+    "description": "The World Database on Protected Areas (WDPA) is the most comprehensive global spatial data set on marine and terrestrial protected areas available. Protected area data are provided via Protected Planet, the online interface for the World Database on Protected Areas (WDPA). The WDPA is a joint initiative of the IUCN and UNEP-WCMC to compile spatially referenced information about protected areas.",
+    "short-description": "Displays areas that are legally protected according to various designations (e.g., national parks, state reserves, and wildlife reserves) and managed to achieve conservation objectives",
+    "subtitle": "",
+    "title": "Protected areas"
+  }
+}
