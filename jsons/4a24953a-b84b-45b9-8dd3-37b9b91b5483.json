@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Daily Outgoing Longwave Radiation (OLR) -- Global",
+    "service": "184",
+    "citation": "",
+    "dataDownload": "http://www.ncdc.noaa.gov/thredds/catalog/cdr/olr-daily/catalog.html",
+    "description": "The OLR is estimated directly from the HIRS radiance observations for all sky conditions. The observations from imagers onboard international operational geostationary satellites are incorporated to improve the sampling of the OLR diurnal variation. The Daily OLR CDR is at its initial version 1.2. The data file format is netCDF-4 with CF metadata, and it is accompanied by algorithm documentation, data flow diagram and source code for the NOAA CDR Program.",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "This Climate Data Record (CDR) contains the daily mean Outgoing Longwave Radiation (OLR) time series in global 1 degree x 1 degree equal-angle gridded maps spanning from January 1, 1979 to December 31, 2013, and continuing daily with a two-day lag.",
+    "subtitle": "NOAA Climate Data Record (CDR, Version 1.3)"
+  }
+}

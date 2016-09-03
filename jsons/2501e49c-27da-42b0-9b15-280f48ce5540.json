@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "GHCN-Daily Station Location -- Global",
+    "service": "80",
+    "citation": "Menne, Matthew J., Imke Durre, Russell S. Vose, Byron E. Gleason, Tamara G. Houston, 2012: An Overview of the Global Historical Climatology Network-Daily Database. J. Atmos. Oceanic Technol., 29, 897–910, doi:10.1175/JTECH-D-11-00103.1.",
+    "dataDownload": "https://www.ncdc.noaa.gov/oa/climate/ghcn-daily/index.php",
+    "description": "GHCN-Daily contains records from over 75000 stations in 180 countries and territories. Numerous daily variables are provided, including maximum and minimum temperature, total daily precipitation, snowfall, and snow depth; however, about two thirds of the stations report precipitation only. Both the record length and period of record vary by station and cover intervals ranging from less than year to more than 175 years.",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "GHCN (Global Historical Climatology Network)-Daily is an integrated database of daily climate summaries from land surface stations across the globe. Like its monthly counterpart (GHCN-Monthly), GHCN-Daily is comprised of daily climate records from numerous sources that have been integrated and subjected to a common suite of quality assurance reviews.",
+    "subtitle": "NOAA Global Historical Climatology Network Daily"
+  }
+}

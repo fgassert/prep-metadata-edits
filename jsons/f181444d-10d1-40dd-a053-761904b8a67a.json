@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "15 minute Precipitation Data -- U.S. ",
+    "service": "277",
+    "citation": "",
+    "dataDownload": "http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00505",
+    "description": "The primary source of data for this file is approximately 2,000 mostly U.S. weather stations operated or managed by the U.S. National Weather Service. Stations are primary, secondary, or cooperative observer sites that have the capability to measure precipitation at 15 minute intervals. This dataset contains 15-minute precipitation data (reported 4 times per hour, if precip occurs) for U.S. stations along with selected non-U.S. stations in U.S. territories and associated nations. It includes major city locations and many small town locations. Daily total precipitation is also included as part of the data record. NCDC has in archive data from most states as far back as 1970 or 1971, and continuing to the present day. The major parameter is precipitation amounts at 15 minute intervals, when precipitation actually occurs.",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "U.S. 15 Minute Precipitation Data is digital data set DSI-3260, archived at the National Climatic Data Center (NCDC). ",
+    "subtitle": "NOAA NCEI 15-Minute Precipitation Data"
+  }
+}

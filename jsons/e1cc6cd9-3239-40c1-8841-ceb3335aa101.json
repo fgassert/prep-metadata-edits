@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Temperature Maximum -- U.S. (Divisional)",
+    "service": "196",
+    "citation": "",
+    "dataDownload": "https://www.ncdc.noaa.gov/temp-and-precip/us-maps/",
+    "description": "",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "Current, 3-Month, 6-Month, 12-Month, Year-to-Date Regional Temperature Rank Maps",
+    "subtitle": "NOAA NCEI Indices"
+  }
+}

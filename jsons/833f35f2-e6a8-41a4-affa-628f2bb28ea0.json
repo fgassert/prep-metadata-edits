@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Natural Land Cover  - Potentially Restorable Wetlands -- U.S. ",
+    "service": "90",
+    "citation": "",
+    "dataDownload": "https://edg.epa.gov/data/Public/ORD/EnviroAtlas/National",
+    "description": "Beginning two centuries ago, many wetlands were turned into farm fields or urban areas, yet wetlands play an important role in removing water pollution, regulating water storage and flows, and providing habitat for wildlife. Potentially restorable wetlands for this map are lands currently in agriculture that naturally accumulate water and historically had poor drainage and hydric soils. By restoring some of these wetlands, it is hoped that the benefits of wetlands would also be restored. This dataset was produced by the US EPA to support research and online mapping activities related to the EnviroAtlas. EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).",
+    "license": "U.S. Government Works",
+    "organization": "EPA",
+    "organization-long": "U.S. Environmental Protection Agency",
+    "short-description": "This EnviroAtlas web service supports research and online mapping activities related to EnviroAtlas (https://www.epa.gov/enviroatlas). This EnviroAtlas dataset shows potentially restorable wetlands at 30 meter resolution.",
+    "subtitle": "EnviroAtlas Landcover"
+  }
+}

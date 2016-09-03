@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Dams -- U.S. ",
+    "service": "266",
+    "citation": "",
+    "dataDownload": "http://www.bts.gov/programs/geographic_information_services/",
+    "description": "",
+    "license": "U.S. Government Works",
+    "organization": "DOT",
+    "organization-long": "Department of Transportation",
+    "short-description": "This map layer portrays major dams of the United States, including Puerto Rico and the U.S. Virgin Islands (NTAD 2015). The map layer was created by extracting dams 50 feet or more in height, or with a normal storage capacity of 5,000 acre-feet or more, or with a maximum storage capacity of 25,000 acre-feet or more, from the 79,777 dams in the U.S. Army Corps of Engineers National Inventory of Dams. This is a replacement for the April 1994 map layer.",
+    "subtitle": "USACE Major Dams"
+  }
+}

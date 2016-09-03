@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Coastal Energy Facilities (2012) -- U.S. ",
+    "service": "181",
+    "citation": "",
+    "dataDownload": "ftp://ftp.coast.noaa.gov/pub/MSP/CoastalEnergyFacilities.zip",
+    "description": "",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "These data depict the location of facilities that generate electricity. The locations are created from the Environmental Protection Agency Emissions & Generation Resource Integrated Database (eGRID). Only facilities adjacent to the coast and Great Lakes are shown. Contained within the database are records that define the fuel source and other characteristics of the facility that may benefit ocean planners. In some cases, the presence of a facility may indicate that certain power transmission infrastructure exists nearby. Absence of a facility or lack of sufficient capacity at a facility in a given area may also be an important characteristic in future energy planning activities. Please keep in mind this is not representative of the whole eGRID. This dataset can be linked back to the additional content of the eGRID by downloading the data and joining it back to the eGRID spreadsheet.",
+    "subtitle": "EPA Coastal Energy Facilities "
+  }
+}

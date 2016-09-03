@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Coastal Flood Hazard Composite Layer (# of Hazards) -- U.S. ",
+    "service": "398",
+    "citation": "",
+    "dataDownload": "https://coast.noaa.gov/htdata/SocioEconomic/ENOW.zip",
+    "description": "",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "This data consists of a composite inundation hazards layer for counties from TX to ME, which have a flood exposure snapshot. The dataset was developed from a union of FEMA flood hazard, USACE hurricane evacuation study, NOAA sea level rise of 3-ft above MHHW, and NOAA Shallow Coastal flooding georeferenced digital data. The source and date have been preserved for each source dataset in the attribution. A unique identifier for each hazard, a total number of hazards and hazard description list in the attribution provide coastal risk exposure for each polygon ",
+    "subtitle": "NOAA Coastal Flood Exposure Mapper"
+  }
+}

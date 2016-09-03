@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Palmer Hydrological Drought Index -- U.S.",
+    "service": "191",
+    "citation": "Palmer, W.C., 1965: Meteorological drought. Research Paper No. 45. U.S. Weather Bureau. [NOAA Library and Information Services Division, Washington, D.C. 20852]",
+    "dataDownload": "http://www.ncdc.noaa.gov/temp-and-precip/drought/historical-palmers/",
+    "description": "",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "Palmer Hydrological Drought Index measures hydrological impacts of drought (e.g., reservoir levels, groundwater levels, etc.) which take longer to develop and longer to recover from. This long-term drought index was developed to quantify these hydrological effects, and it responds more slowly to changing conditions than the PDSI.",
+    "subtitle": "NOAA NCEI Indices"
+  }
+}
