@@ -1,0 +1,14 @@
+{
+  "attributes": {
+    "title": "Temperature Maximum -- U.S. (Regional)",
+    "service": "192",
+    "citation": "",
+    "dataDownload": "http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/usa.shtml",
+    "description": "",
+    "license": "U.S. Government Works",
+    "organization": "NOAA",
+    "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
+    "short-description": "Current, 3-Month, 6-Month, 12-Month, Year-to-Date  Regional Temperature Rank Maps",
+    "subtitle": "NOAA NCEI Indices"
+  }
+}
