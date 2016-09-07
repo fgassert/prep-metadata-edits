@@ -3,12 +3,13 @@
     "title": "Uncontrolled Public-Use Airports -- U.S.",
     "service": "252",
     "citation": "",
-    "dataDownload": "http://maps.bts.dot.gov",
+    "dataDownload": "",
     "description": "",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "DOT",
     "organization-long": "Department of Transportation",
     "short-description": "The Airports database is a geographic point database of aircraft landing facilities in the United States and U.S. Territories. Attribute data is provided on the physical and operational characteristics of the landing facility, current usage including enplanements and aircraft operations, congestion levels and usage categories. This geospatial data is derived from the FAA's National Airspace System Resource Aeronautical Data Product.",
-    "subtitle": "FAA Uncontrolled Public-Use Airports"
+    "subtitle": "FAA Uncontrolled Public-Use Airports",
+    "source": "http://maps.bts.dot.gov"
   }
 }

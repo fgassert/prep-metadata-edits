@@ -3,12 +3,13 @@
     "title": "Aquifers  -- U.S.",
     "service": "259",
     "citation": "",
-    "dataDownload": "http://geoplatform.maps.arcgis.com/home/item.html?id=cd036e79d269418686b26969991aa50c",
+    "dataDownload": "",
     "description": "",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "DOT",
     "organization-long": "Department of Transportation",
     "short-description": "This map layer contains the shallowest principal aquifers of the conterminous United States, Hawaii, Puerto Rico, and the U.S. Virgin Islands, portrayed as polygons. The map layer was developed as part of the effort to produce the maps published at 1:2,500,000 in the printed series \"Ground Water Atlas of the United States\". The published maps contain base and cultural features not included in these data. This is a replacement for the July 1998 map layer called Principal Aquifers of the 48 Conterminous United States.",
-    "subtitle": "USGS Shallowest Principal Aquifers "
+    "subtitle": "USGS Shallowest Principal Aquifers ",
+    "source": "http://geoplatform.maps.arcgis.com/home/item.html?id=cd036e79d269418686b26969991aa50c"
   }
 }

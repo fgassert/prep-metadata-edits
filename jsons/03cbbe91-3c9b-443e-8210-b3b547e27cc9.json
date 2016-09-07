@@ -3,12 +3,13 @@
     "title": "Reservations -- U.S. (Alaska)",
     "service": "92",
     "citation": "",
-    "dataDownload": "https://ejscreen.epa.gov/arcgis/rest/services/ejscreen/tribal/MapServer/2",
+    "dataDownload": "http://edg.epa.gov/data/Restricted/OEI/OIAA/Tribes/EPAtribes.zip",
     "description": "",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "EPA",
     "organization-long": "U.S. Environmental Protection Agency",
     "short-description": "This layer represents locations of American Indian reservations in Alaska.",
-    "subtitle": "EPA  American Indian Reservations"
+    "subtitle": "EPA  American Indian Reservations",
+    "source": "https://catalog.data.gov/dataset/epa-tribal-areas-3-of-4-alaska-reservations"
   }
 }

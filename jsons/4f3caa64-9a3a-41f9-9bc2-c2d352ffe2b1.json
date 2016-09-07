@@ -3,12 +3,13 @@
     "title": "USGS Land Cover - Canopy (2001) -- U.S. (Alaska)",
     "service": "326",
     "citation": "Homer, C., Dewitz, J., Fry, J., Coan, M., Hossain, N., Larson, C., Herold, N., McKerrow, A., VanDriel, J.N., and Wickham, J. 2007. Completion of the 2001 National Land Cover Database for the Conterminous United States. Photogrammetric Engineering and Remote Sensing, Vol. 73, No. 4, pp 337-341. ",
-    "dataDownload": "http://www.mrlc.gov/nlcd01_data.php",
+    "dataDownload": "",
     "description": "NLCD 2001 is based primarily on a decision-tree classification of circa 2001 Landsat satellite data. NLCD 2001 improves on NLCD92 in that it is comprised of three different elements: land cover, percent developed impervious surface and percent tree canopy density. NLCD 2001 also uses improved classification algorithms, which have resulted in data with more precise rendering of spatial boundaries between the land cover classes.",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "USGS",
     "organization-long": "U.S. Geological Survey",
     "short-description": "National Land Cover Database 2001 (NLCD 2001) is a 16-class (additional four classes in Alaska only) land cover classification scheme that has been applied consistently across all 50 United States and Puerto Rico at a spatial resolution of 30 meters.",
-    "subtitle": "USGS National Land Cover Database "
+    "subtitle": "USGS National Land Cover Database ",
+    "source": "http://www.mrlc.gov/nlcd01_data.php"
   }
 }

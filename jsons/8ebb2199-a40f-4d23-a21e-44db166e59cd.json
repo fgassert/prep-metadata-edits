@@ -3,12 +3,13 @@
     "title": "Canals -- U.S. ",
     "service": "253",
     "citation": "",
-    "dataDownload": "http://geoplatform.maps.arcgis.com/home/item.html?id=790e540fb71943cc991d796ea740d24c",
+    "dataDownload": "",
     "description": "",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "DOT",
     "organization-long": "Department of Transportation",
     "short-description": "An artificial waterway with no flow, or a controlled flow, used for navigation, or for draining or irrigating land (ditch). (United States Geological Survey, Jan.89) Distinction: canal bank; river; lake; tideway;",
-    "subtitle": "USACE Transportation Water "
+    "subtitle": "USACE Transportation Water ",
+    "source": "http://geoplatform.maps.arcgis.com/home/item.html?id=790e540fb71943cc991d796ea740d24c"
   }
 }

@@ -7,5 +7,5 @@ curl http://api.prepdata.org/datasets?app=prep |
     jq -r '.[] | .id' |
     while read id
     do curl http://api.prepdata.org/metadata/$id |
-            jq '.data[0].attributes.info' > jsons/$($id).json
+            jq '.data[0].attributes.info' > jsons/$id.json
     done <&0

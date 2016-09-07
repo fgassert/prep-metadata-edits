@@ -3,12 +3,13 @@
     "title": "Travel Monitoring Analysis System (TMAS) -- U.S.",
     "service": "276",
     "citation": "",
-    "dataDownload": "http://www.bts.gov/programs/geographic_information_services/",
+    "dataDownload": "",
     "description": "Location referencing information was derived from State Offices of Transportation. The attributes on the point elements of the database are used by FHWA for its Travel Monitoring and Analysis System and by State DOTs. The attributes for these databases have been intentionally limited to location referencing attributes since the core station description attribute data are contained within the Station Description Tables (SDT). There is a separate Station Description Table (SDT) for each of the station types. The attributes in the Station Description Table correspond with the Station Description Record found in Chapter 6 of the 2001 Traffic Monitoring Guide. The SDT contains the most recent stations available for each state and station type. This table was derived from files provided UTCTR by FHWA. The Station Description Table can be linked to the station shapefile via the STNNKEY field.",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "DOT",
     "organization-long": "Department of Transportation",
     "short-description": "The data included in the GIS Traffic Stations Version database have been collected by the FHWA from the State DOTs (NTAD 2015). ",
-    "subtitle": ""
+    "subtitle": "",
+    "source": "http://www.bts.gov/programs/geographic_information_services/"
   }
 }

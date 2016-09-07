@@ -10,6 +10,7 @@ reqfields = [
       "service",
       "short-description",
       "subtitle",
+      "source",
 ]
 
 def check_metadata(fjson):

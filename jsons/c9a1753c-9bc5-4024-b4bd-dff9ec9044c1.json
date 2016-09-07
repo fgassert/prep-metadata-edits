@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "title": "Projected annual temperature and precipitation (Sonoma County)",
+    "service": "20003",
+    "citation": "L.E. Flint and A.L. Flint, 2014, California Basin Characterization Model: A Dataset of Historical and Future Hydrologic Response to Climate Change, U.S. Geological Survey Data Release, doi:10.5066/F76T0JPB",
+    "dataDownload": "http://data1.pointblue.org:8080/thredds/catalog.html",
+    "description": "California Climate Commons Metadata Record 1: http://climate.calcommons.org/sites/default/files/metadata/California_Basin_Characterization_Model_BCM_downscaled_climate_and_hydrology.xml ",
+    "license": "U.S. Government Work",
+    "organization": "USGS",
+    "organization-long": "",
+    "short-description": "Data are annual time series of historical precipitation and summer air temperature and 6 projected future climates.",
+    "subtitle": "USGS California Basin Characterization Model",
+    "source": "http://climate.calcommons.org/article/featured-dataset-california-basin-characterization-model"
+  }
+}

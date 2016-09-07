@@ -3,12 +3,13 @@
     "title": "Coastline -- U.S.",
     "service": "254",
     "citation": "",
-    "dataDownload": "http://geoplatform.maps.arcgis.com/home/item.html?id=790e540fb71943cc991d796ea740d24c",
+    "dataDownload": "",
     "description": "",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "DOT",
     "organization-long": "Department of Transportation",
     "short-description": "The line where shore and water meet. Although the terminology of coasts and shores is rather confused, shoreline and coastline are generally used as synonyms. (IHO Dictionary, S-32, 5th Edition, 858,4695) Distinction: canal bank; lake shore; river bank; shoreline construction;",
-    "subtitle": "USACE Transportation Water "
+    "subtitle": "USACE Transportation Water ",
+    "source": "http://geoplatform.maps.arcgis.com/home/item.html?id=790e540fb71943cc991d796ea740d24c"
   }
 }

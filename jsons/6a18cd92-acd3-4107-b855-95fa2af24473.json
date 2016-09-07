@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "title": "Historical and projected monthly hydrographs (Puget Sound)",
+    "service": "20011",
+    "citation": "Hamlet, A.F., Elsner, M.M., Mauger, G., Lee, S-Y, Tohver, I.M. An Overview of the Columbia Basin Climate Change Scenarios Project: Approach, Methods, and Summary of Key Results. Atmosphere-Ocean (in press).",
+    "dataDownload": "",
+    "description": "These data were used to create Figure 3-2 in State of Knowledge: Climate Change in Puget Sound. \nhttp://cses.washington.edu/picea/mauger/ps-sok/ps-sok_sec12_builtenvironment_2015.pdf\n\nThese data were adjusted for bias using the hybrid delta method. For more information, please refer to http://warm.atmos.washington.edu/2860.",
+    "license": "",
+    "organization": "University of Washington Climate Impacts Group",
+    "organization-long": "",
+    "short-description": "Projected (2030-2059, 2070-2099) and historical (1970-1999) average monthly streamflow for rain-dominant, mixed rain and snow, and snow-dominant watershed types. Projections are based on 10 global climate models and a moderate (A1B) greenhouse gas scenario.",
+    "subtitle": "PNW Hydroclimate Scenarios Project (2860)",
+    "source": "http://warm.atmos.washington.edu/2860/"
+  }
+}

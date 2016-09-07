@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "title": "Projected increase in maximum monthly summer air temperature (Sonoma County)",
+    "service": "20001",
+    "citation": "L.E. Flint and A.L. Flint, 2014, California Basin Characterization Model: A Dataset of Historical and Future Hydrologic Response to Climate Change, U.S. Geological Survey Data Release, doi:10.5066/F76T0JPB",
+    "dataDownload": "http://data1.pointblue.org:8080/thredds/catalog.html",
+    "description": "California Climate Commons Metadata Record 1: http://climate.calcommons.org/sites/default/files/metadata/California_Basin_Characterization_Model_BCM_downscaled_climate_and_hydrology.xml ",
+    "license": "U.S. Government Work",
+    "organization": "USGS",
+    "organization-long": "",
+    "short-description": "Data are maps of maximum monthly summer air temperature in ºF for 30-year periods 1951-1980, 1980-2010, 2010-2039, 2040-2069, and 2070-2099 assuming continued increases in global emissions (RCP 8.5) for National Center for Atmospheric Research model CCSM4.",
+    "subtitle": "USGS California Basin Characterization Model",
+    "source": "http://climate.calcommons.org/article/featured-dataset-california-basin-characterization-model"
+  }
+}

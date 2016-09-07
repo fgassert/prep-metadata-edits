@@ -3,12 +3,13 @@
     "title": "Natural Land Cover - Water as Foreground (2006) -- U.S. ",
     "service": "122",
     "citation": "",
-    "dataDownload": "https://edg.epa.gov/data/Public/ORD/EnviroAtlas/National",
+    "dataDownload": "",
     "description": "EnviroAtlas (https://www.epa.gov/enviroatlas) allows the user to interact with a web-based, easy-to-use, mapping application to view and analyze multiple ecosystem services for the contiguous United States. The dataset is available as downloadable data (https://edg.epa.gov/data/Public/ORD/EnviroAtlas) or as an EnviroAtlas map service. Additional descriptive information about each attribute in this dataset can be found in its associated EnviroAtlas Fact Sheet (https://www.epa.gov/enviroatlas/enviroatlas-fact-sheets).",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "EPA",
     "organization-long": "U.S. Environmental Protection Agency",
     "short-description": "This EnviroAtlas dataset categorizes land cover into structural elements (e.g. core, edge, connector, etc.). Water is treated as foreground in this dataset. This dataset was produced by the US EPA to support research and online mapping activities related to EnviroAtlas.",
-    "subtitle": "EnviroAtlas Landcover"
+    "subtitle": "EnviroAtlas Landcover",
+    "source": "https://edg.epa.gov/data/Public/ORD/EnviroAtlas/National"
   }
 }

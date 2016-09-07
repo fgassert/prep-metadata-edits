@@ -3,12 +3,13 @@
     "title": "Hourly Global Climate Summaries -- Global",
     "service": "260",
     "citation": "",
-    "dataDownload": "http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00652",
+    "dataDownload": "",
     "description": "In a GIS map service, the results of these calculations are represented by a given symbology set for different statistical criteria and observation type. Having the ability to modify the symbology \"on-the-fly\" is a useful tool in the analysis of station trends, accuracy, and regional or localized variances. The summaries are computed from the global surface hourly dataset. This dataset totaling over 350 gigabytes is comprised of 40 different types of weather observations with 20,000 stations worldwide. NCDC and the U.S. Navy have developed these value added products in the form of hourly summaries from many of these observations. These data are a subset of the Integrated Surface Hourly dataset (DSI-3505) (C00532).",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "NOAA",
     "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
     "short-description": "The Global Hourly Summaries are simple indicators of observational normals which include climatic data summarizations and frequency distributions. These typically are statistical analyses of station data over 5-, 10-, 20-, 30-year or longer time periods. ",
-    "subtitle": "NOAA Global Climate Summaries"
+    "subtitle": "NOAA Global Climate Summaries",
+    "source": "http://gis.ncdc.noaa.gov/all-records/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00652"
   }
 }

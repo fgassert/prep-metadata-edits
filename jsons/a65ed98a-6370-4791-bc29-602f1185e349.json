@@ -3,12 +3,13 @@
     "title": "PERSIANN Precipitation Estimation -- Global",
     "service": "168",
     "citation": "http://dx.doi.org/10.7289/V51V5BWQ",
-    "dataDownload": "http://gis.ncdc.noaa.gov/geoportal/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00854",
+    "dataDownload": "",
     "description": "The data covers from 60 degrees S to 60 degrees N and 0 degrees to 360 degrees longitude at 0.25 degree spatial resolution. The product is developed using Gridded Satellite (GridSat-B1) IR data that are derived from merging ISCCP B1 IR data, along with GPCP version 2.2.",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "NOAA",
     "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
     "short-description": "PERSIANN Precipitation Climate Data Record (PERSIANN-CDR) is a daily quasi-global precipitation product for the period of 1982 to 2011.",
-    "subtitle": "NOAA Climate Data Record (Version 1 Revision 2)"
+    "subtitle": "NOAA Climate Data Record (Version 1 Revision 2)",
+    "source": "http://gis.ncdc.noaa.gov/geoportal/catalog/search/resource/details.page?id=gov.noaa.ncdc:C00854"
   }
 }

@@ -3,12 +3,13 @@
     "title": "Temperature Minimum -- U.S. (Regional)",
     "service": "193",
     "citation": "",
-    "dataDownload": "http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/usa.shtml",
+    "dataDownload": "",
     "description": "",
-    "license": "U.S. Government Works",
+    "license": "U.S. Government Work",
     "organization": "NOAA",
     "organization-long": "National Oceanic and Atmospheric Administration, Department of Commerce",
     "short-description": "Current, 3-Month, 6-Month, 12-Month  Year-to-Date  Regional Temperature  Rank Maps",
-    "subtitle": "NOAA NCEI Indices"
+    "subtitle": "NOAA NCEI Indices",
+    "source": "http://www.cpc.ncep.noaa.gov/products/analysis_monitoring/regional_monitoring/usa.shtml"
   }
 }
