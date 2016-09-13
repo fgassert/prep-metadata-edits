@@ -12,4 +12,8 @@ Requires JQ https://stedolan.github.io/jq/download/
 
 `checkissues.sh` -> checks for missing metadata attributes in `./jsons`.
 
-`generate_patch_commands.sh <auth>` -> generates curl commands for patching metadata in `./json`. Pipe to bash to run patch commands `./generate_patch_commands.sh "Bearer TOKEN" | bash`.
+`generate_patch_commands.sh <auth>` -> generates curl commands for patching metadata in `./json`. Pipe to bash to run patch commands `./generate_patch_commands.sh "TOKEN" | bash`.
+
+`put-dataset-names.sh <auth>` -> generates curl commands for patching dataset name in `./dataset-jsons`. Pipe to bash to run patch commands `./put-dataset-names.sh "TOKEN" | bash`.
+
+`put-dataset-tags.sh <auth>` -> generates curl commands for patching dataset tags in `./dataset-tags-jsons`. Pipe to bash to run patch commands `./put-dataset-tags.sh "TOKEN" | bash`.

@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "title": "Projected Average Annual Precipitation - Lower Emissions (2041-2070) -- Global",
+    "service": "10008",
+    "citation": "",
+    "dataDownload": "",
+    "description": "The NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP) dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5) and across two of the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs). The CMIP5 GCM runs were developed in support of the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5). The NEX-GDDP dataset includes downscaled projections for RCP 4.5 and RCP 8.5 from the 21 models and scenarios for which daily scenarios were produced and distributed under CMIP5. Further information on the methodology can be found at https://nex.nasa.gov/nex/static/media/other/NEX-GDDP_Tech_Note_v1_08June2015.pdf. ",
+    "license": "CC-BY-4.0",
+    "organization": "WRI",
+    "organization-long": "World Resources Institute",
+    "short-description": "This map shows average annual precipitation between 2041-2070 derived from the ensemble average of the NASA NEX Global Daily Downscaled Projections under a lower emissions (RCP4.5) scenario. Values are reported in mm/year equivalent.",
+    "subtitle": "NASA NEX GDDP - ensemble average precipitation RCP4.5",
+    "source": "https://cds.nccs.nasa.gov/nex-gddp/"
+  }
+}

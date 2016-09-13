@@ -1,12 +1,12 @@
 {
   "attributes": {
-    "title": "Projected Precipitation Change (Puget Sound)",
+    "title": "Projected Precipitation Change -- U.S. (Puget Sound)",
     "service": "20014",
     "citation": "Abatzoglou, J. T., Brown, T. J. 2012. A comparison of statistical downscaling methods suited for wildfire applications. International Journal of Climatology, 32(5), 772-780. doi: http://dx.doi.org/10.1002/joc.2312",
     "dataDownload": "",
-    "description": "These indicators are derived from the Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Future Climate Dataset. For more information about this analysis, please see http://cses.washington.edu/picea/mauger/ps-sok/ps-sok_sec12_builtenvironment_2015.pdf. For more information about the MACA CMIP5 Future Climate Dataset please see http://maca.northwestknowledge.net/index.php\r",
+    "description": "These indicators are derived from the Multivariate Adaptive Constructed Analogs (MACA) CMIP5 Future Climate Dataset. For more information about this analysis, please see http://cses.washington.edu/picea/mauger/ps-sok/ps-sok_sec12_builtenvironment_2015.pdf. For more information about the MACA CMIP5 Future Climate Dataset please see http://maca.northwestknowledge.net/index.php\n",
     "license": "CC-0 (Public Domain)",
-    "organization": "MACAv2-LIVNEH",
+    "organization": "University of Idaho",
     "organization-long": "",
     "short-description": "Projected precipitation change in the Puget Sound Lowlands relative to average precipitation between 1950-2005. ",
     "subtitle": "MACAv2-LIVNEH CMIP5 Precipitation",

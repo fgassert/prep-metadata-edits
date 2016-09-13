@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "title": "Historical Temperature (Puget Sound)",
+    "title": "Historical Temperature -- U.S. (Puget Sound Lowlands)",
     "service": "20013",
     "citation": "Vose, R. S. et al., 2014. Improved historical temperature and precipitation time series for US climate divisions. Journal Of Applied Meteorology and Climatology, 53(5), 1232-1251.",
     "dataDownload": "ftp://ftp.ncdc.noaa.gov/pub/data/cirs/climdiv/",
@@ -9,7 +9,7 @@
     "organization": "NOAA",
     "organization-long": "",
     "short-description": "",
-    "subtitle": "NOAA nCLIMDIV Temperature for Puget Sound Lowlands",
+    "subtitle": "NOAA nCLIMDIV Temperature ",
     "source": "http://catalog.data.gov/dataset/noaas-climate-divisional-database-nclimdiv"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "title": "VIIRS Active Fire -- Global",
+    "service": "10017",
+    "citation": "NASA FIRMS. “VIIRS Active Fires.”",
+    "dataDownload": "",
+    "description": "The VIIRS active fires data (VNP14IMGT) is the latest fire monitoring product to FIRMS (Fire Information for Resource Management System), which identifies global fire locations in near-real time. Information is collected from the Visible Infrared Imaging Radiometer Suite (VIIRS) sensor, and processed with a fire detection algorithm to flag active fires. Each dot on the map represents the center of a 375 meter pixel that has been flagged by the algorithm. The VIIRS data replaces the active fires data from MODIS that was previously available on Global Forest Watch. The VIIRS data has higher spatial resolution (375-meter pixels vs. 1-kilometer pixels) which improves detection of smaller fires and provides a more reliable estimate of fire perimeters. The VIIRS data is also better calibrated to detect fires at night. The active fires data is available to view and download for the past 24 hours, 48 hours, or 7 days. Older fire data will be available for download from the NASA FIRMS website beginning in mid-2016. Each fire alert has a confidence value of low, nominal, or high to help users gauge the quality of individual hotspot /fire pixels.",
+    "license": "U.S. Government Work",
+    "organization": "NASA",
+    "organization-long": "",
+    "short-description": "",
+    "subtitle": "NASA VIIRS Active Fire Data",
+    "source": "https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data"
+  }
+}

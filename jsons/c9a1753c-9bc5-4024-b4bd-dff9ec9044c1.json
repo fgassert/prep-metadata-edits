@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "title": "Projected annual temperature and precipitation (Sonoma County)",
+    "title": "Projected Annual Temperature and Precipitation -- U.S. (Sonoma County)",
     "service": "20003",
     "citation": "L.E. Flint and A.L. Flint, 2014, California Basin Characterization Model: A Dataset of Historical and Future Hydrologic Response to Climate Change, U.S. Geological Survey Data Release, doi:10.5066/F76T0JPB",
     "dataDownload": "http://data1.pointblue.org:8080/thredds/catalog.html",
