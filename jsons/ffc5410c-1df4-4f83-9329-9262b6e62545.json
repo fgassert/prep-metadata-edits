@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "title": "Ports -- U.S. ",
+    "service": "274",
+    "citation": "",
+    "dataDownload": "",
+    "description": "",
+    "license": "U.S. Government Work",
+    "organization": "DOT",
+    "organization-long": "Department of Transportation",
+    "short-description": "Contains physical information on commercial facilities at the principal U.S. Coastal, Great Lakes and Inland Ports (NTAD 2015). The data consists of listings of port area's waterfront facilities, including information on berthing, cranes, transit sheds, grain elevators, marine repair plants, fleeting areas, and docking and storage facilities. Collection of data is performed on a rotational basis to ensure on-site accuracy at each facility.",
+    "subtitle": "NWN Coastal, Great Lakes and Inland Ports",
+    "source": "http://www.bts.gov/programs/geographic_information_services/"
+  }
+}

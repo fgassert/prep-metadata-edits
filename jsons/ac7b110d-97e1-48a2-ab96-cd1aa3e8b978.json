@@ -1,14 +1,14 @@
 {
   "attributes": {
-    "title": "Projected change in winter snowpack (Puget Sound)",
+    "title": "Projected Change in Winter Snowpack -- U.S. (Puget Sound)",
     "service": "20010",
     "citation": "Hamlet, A.F., Elsner, M.M., Mauger, G., Lee, S-Y, Tohver, I.M. An Overview of the Columbia Basin Climate Change Scenarios Project: Approach, Methods, and Summary of Key Results. Atmosphere-Ocean (in press).",
     "dataDownload": "http://warm.atmos.washington.edu/2860/r7climate/hb2860_delta_method_runs/",
-    "description": "The most sensitive basins to warming are the watersheds that are near the current snowline “mixed rain and snow”. These are middle elevation basins that receive a mixture of rain and snow in the winter, and are projected to experience significant increases in winter flows and decreases in spring and summer flows as a result of warming.\n\rMore information about this analysis is available here:\rhttps://cig.uw.edu/resources/special-reports/ps-sok/\r",
+    "description": "The most sensitive basins to warming are the watersheds that are near the current snowline “mixed rain and snow”. These are middle elevation basins that receive a mixture of rain and snow in the winter, and are projected to experience significant increases in winter flows and decreases in spring and summer flows as a result of warming.\n\nMore information about this analysis is available here:\nhttps://cig.uw.edu/resources/special-reports/ps-sok/\n",
     "license": "",
     "organization": "University of Washington Climate Impacts Group",
     "organization-long": "",
-    "short-description": "Maps  indicate  current  and  future  watershed  classifications,  based  on  the  proportion   of   winter   precipitation   stored   in   peak   annual   snowpack.\r",
+    "short-description": "Maps  indicate  current  and  future  watershed  classifications,  based  on  the  proportion   of   winter   precipitation   stored   in   peak   annual   snowpack.\n",
     "subtitle": "PNW Hydroclimate Scenarios Project (2860)",
     "source": "http://warm.atmos.washington.edu/2860/"
   }
