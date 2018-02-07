@@ -3,7 +3,7 @@
 rm -rf jsons
 mkdir -p jsons
 
-curl "https://docs.google.com/spreadsheets/d/1ZbL1Mw2hGi8FapzepapMVT-W0frkE0QCHuq3jVvb5wc/export?format=csv&id=1ZbL1Mw2hGi8FapzepapMVT-W0frkE0QCHuq3jVvb5wc&gid=658960477" | csvtojson > googledocs.json
+curl "https://docs.google.com/spreadsheets/d/1CQ5vKg0mPkxD8uDPoTLeQDxdN2w8AotnvLRHxfKNIKI/export?format=csv&id=1CQ5vKg0mPkxD8uDPoTLeQDxdN2w8AotnvLRHxfKNIKI&gid=658960477" | csvtojson > googledocs.json
 
 cat googledocs.json | jq -r '.[] | .api_id' |
     while read id
