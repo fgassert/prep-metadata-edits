@@ -16,6 +16,7 @@ cat googledocs.json | jq -r '.[] | .api_id' |
     do
         if [ "$id" != "#N/A" ] && [ -n "$id" ]
         then
+            echo "$id"
             cat googledocs.json | jq -S ".[] | select(.api_id==\"$id\") | del(.api_id) | .language=\"$LANGUAGE\" | .application=\"$APP\"" > $NEW_METADATA/$id.json;
         fi
     done <&0

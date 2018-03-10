@@ -11,17 +11,30 @@ Requires:
 
 1. Install required libraies, and get your RW API KEY at https://ui.resourcewatch.org/ .
 
-`sudo npm i -g csvtojson`
-`sudo apt-get install jq colordiff`
+```
+sudo npm i -g csvtojson
+sudo apt-get install -y jq colordiff
+```
 
-2. Download this repository.
+You might have to add the node scripts directory to your path.
 
-`git clone https://github.com/fgassert/prep-metadata-edits.git`
-`cd prep-metadata-edits`
+```
+export PATH=$PATH:$(npm bin -g)
+```
+
+2. Download or update your copy of this repository.
+
+```
+git clone https://github.com/fgassert/prep-metadata-edits.git
+cd prep-metadata-edits
+git pull
+```
 
 3. Fetch metadata from Google docs and update NEX-GDDP datasets with layer info.
 
-`./fetch_from_google_docs.sh`
+```
+./fetch_from_google_docs.sh
+```
 
 You can inspect the saved metadata in `jsons/{id}.json` directory. They should follow a format similar to the following.
 
@@ -51,7 +64,15 @@ You can inspect the saved metadata in `jsons/{id}.json` directory. They should f
 }
 ```
 
-4. Update and/or post new metadata using your API key.
+4. [Optional] check differences in new metadata
+
+```
+./diff_metadata.sh
+```
+
+Note: Since the patch command only updates lines that are included in the json payload, lines that `diff` shows as being removed will not actually be removed unless overwritten.
+
+5. Update and/or post new metadata using your API key.
 
 ```
 ./update_metadata.sh [RW_API_KEY] --post | bash
@@ -59,3 +80,12 @@ You can inspect the saved metadata in `jsons/{id}.json` directory. They should f
 ```
 
 The script will read all files from the `jsons` directory and attempt to update the corresponding dataset metadata. The using the `--post` option will create new metadata objects for the datasets that do not currently have metadata, otherwise only existing metadata will be updated.
+
+### Revert edits
+
+The update and diff scripts will save a copy of the current metadata from the API. Overwrite the `jsons` folder with the `api_jsons` folder and run the update script again to revert to this version.
+
+```
+mv -f api_jsons jsons
+./update_metadata.sh [RW_API_KEY] | bash
+```
