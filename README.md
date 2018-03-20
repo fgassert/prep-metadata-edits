@@ -9,7 +9,7 @@ Requires:
 
 # Post new metadata
 
-1. Install required libraies, and get your RW API KEY at https://ui.resourcewatch.org/ .
+### 1. Install required libraies, and get your RW API KEY at https://ui.resourcewatch.org/ .
 
 ```
 sudo npm i -g csvtojson
@@ -22,7 +22,7 @@ You might have to add the node scripts directory to your path.
 export PATH=$PATH:$(npm bin -g)
 ```
 
-2. Download or update your copy of this repository.
+### 2. Download or update your copy of this repository.
 
 ```
 git clone https://github.com/fgassert/prep-metadata-edits.git
@@ -30,7 +30,7 @@ cd prep-metadata-edits
 git pull
 ```
 
-3. Fetch metadata from Google docs and update NEX-GDDP datasets with layer info.
+### 3. Fetch metadata from Google docs and update NEX-GDDP datasets with layer info.
 
 ```
 ./fetch_from_google_docs.sh
@@ -38,7 +38,7 @@ git pull
 
 You can inspect the saved metadata in `jsons/{id}.json` directory. They should follow a format similar to the following.
 
-```
+```json
 {
   "info": {
     "wri_rw_id": "prep_0101",
@@ -64,7 +64,7 @@ You can inspect the saved metadata in `jsons/{id}.json` directory. They should f
 }
 ```
 
-4. [Optional] check differences in new metadata
+### 4. _[Optional]_ Check differences in new metadata.
 
 ```
 ./diff_metadata.sh
@@ -72,14 +72,14 @@ You can inspect the saved metadata in `jsons/{id}.json` directory. They should f
 
 Note: Since the patch command only updates lines that are included in the json payload, lines that `diff` shows as being removed will not actually be removed unless overwritten.
 
-5. Update and/or post new metadata using your API key.
+### 5. Update and/or post new metadata using your API key.
 
 ```
 ./update_metadata.sh [RW_API_KEY] --post | bash
 ./update_metadata.sh [RW_API_KEY] | bash
 ```
 
-The script will read all files from the `jsons` directory and attempt to update the corresponding dataset metadata. The using the `--post` option will create new metadata objects for the datasets that do not currently have metadata, otherwise only existing metadata will be updated.
+The script will read all files from the `jsons` directory and attempt to update the corresponding dataset metadata. Using the `--post` option will create new metadata objects for the datasets that do not currently have metadata, otherwise only existing metadata will be updated.
 
 ### Revert edits
 

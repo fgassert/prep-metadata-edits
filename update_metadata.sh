@@ -24,7 +24,7 @@ fi
 rm -rf $BACKUP_DIR
 mkdir -p $BACKUP_DIR
 
-echo  "Backing up current metadata to $BACKUP_DIR/{*id}.json"
+(>&2 echo  "Backing up current metadata to $BACKUP_DIR/{*id}.json")
 
 curl -s "https://api.resourcewatch.org/v1/dataset/?app=$APP&page\[size\]=1000" |
     jq -r '.data[] | .id' |
