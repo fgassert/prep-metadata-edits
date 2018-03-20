@@ -4,8 +4,8 @@ NEW_METADATA=jsons
 APP=prep
 LANGUAGE=en
 
-rm -rf $NEW_METADATA nexjsons nexlayers
-mkdir -p $NEW_METADATA nexjsons nexlayers
+rm -rf $NEW_METADATA nexjsons nexlayers locajsons localayers
+mkdir -p $NEW_METADATA nexjsons nexlayers locajsons localayers
 
 echo "Fetching from Google docs"
 
@@ -31,6 +31,17 @@ cat nexlayers.json | jq -r '.data | unique_by(.attributes.layerConfig.indicator)
         cat nexlayers.json | jq ".data | map(select(.attributes.layerConfig.indicator == \"$indicator\") | {layerId:.id, scenario:.attributes.layerConfig.scenario, temp_resolution:.attributes.layerConfig.temp_resolution, compareWith:.attributes.layerConfig.compareWith})" > nexlayers/$indicator.json
     done
 
+echo "Adding LOCA layer metadata"
+
+curl -s -o localayers.json "https://api.resourcewatch.org/v1/layer/?provider=loca&page\[size\]=100"
+
+cat localayers.json | jq -r '.data | unique_by(.attributes.layerConfig.indicator)[].attributes.layerConfig.indicator' |
+    while read indicator
+    do
+        cat localayers.json | jq ".data | map(select(.attributes.layerConfig.indicator == \"$indicator\") | {layerId:.id, scenario:.attributes.layerConfig.scenario, temp_resolution:.attributes.layerConfig.temp_resolution, compareWith:.attributes.layerConfig.compareWith})" > localayers/$indicator.json
+    done
+
+
 ls $NEW_METADATA |
     while read f
     do
@@ -39,11 +50,18 @@ ls $NEW_METADATA |
         then
             layers=$(cat nexlayers/$indicator.json)
             cat $NEW_METADATA/$f | jq -S ".info.nexgddp.layers=$layers" > nexjsons/$f
+        else
+            indicator=$(cat $NEW_METADATA/$f | jq -r ".info.loca.indicator_id")
+            if [ "$indicator" != '' ]
+            then
+                layers=$(cat localayers/$indicator.json)
+                cat $NEW_METADATA/$f | jq -S ".info.loca.layers=$layers" > locajsons/$f
+            fi
         fi
     done
 
 cp -rf nexjsons/* $NEW_METADATA/
-rm -rf nexjsons nexlayers
+cp -rf locajsons/* $NEW_METADATA/
 
 echo "New metadata saved to $NEW_METADATA/{*id}.json"
 
