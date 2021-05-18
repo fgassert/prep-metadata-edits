@@ -9,7 +9,7 @@ mkdir -p $NEW_METADATA nexjsons nexlayers locajsons localayers
 
 echo "Fetching from Google docs"
 
-curl -s "https://docs.google.com/spreadsheets/d/1CQ5vKg0mPkxD8uDPoTLeQDxdN2w8AotnvLRHxfKNIKI/export?format=csv&id=1CQ5vKg0mPkxD8uDPoTLeQDxdN2w8AotnvLRHxfKNIKI&gid=658960477" | csvtojson > googledocs.json
+curl -s -L "https://docs.google.com/spreadsheets/d/1CQ5vKg0mPkxD8uDPoTLeQDxdN2w8AotnvLRHxfKNIKI/export?format=csv&id=1CQ5vKg0mPkxD8uDPoTLeQDxdN2w8AotnvLRHxfKNIKI&gid=658960477" | csvtojson > googledocs.json
 
 cat googledocs.json | jq -r '.[] | .api_id' |
     while read id
